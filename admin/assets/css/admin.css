@@ -1,0 +1,69 @@
+/* BASE STYLES */
+
+.role-methods-main-title {
+	margin: 40px 0;
+}
+
+.paymentrolepanel {
+	float:left;
+	width:100%;
+	padding-right:20px;
+}
+.wc_shipping td {
+  padding: 10px;
+  width: 200px;
+}
+
+.wc_shipping th strong {
+  color: #000;
+  font-size: 1.1em;
+}
+
+.wc_shipping th  {
+  color: #666;
+}
+
+.roletd {
+	width:220px;
+}
+
+/* GROUPS */
+
+.group-settings {
+	display: none;
+}
+
+.groups--visible {
+	display: block;
+}
+
+.enable-groups-toggle {
+	margin-bottom: 20px;
+}
+
+.enable-groups-toggle .groups-toggle {
+	margin-left: 5px;
+}
+
+.widefat thead th {
+  border-bottom: 0;
+}
+
+.wc_shipping .zone-heading {
+  border-left:  1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.wc_shipping th,
+.wc_shipping td {
+  border-left: 1px solid #e1e1e1;
+}
+
+.wc_shipping .zone-title {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.shippingrolepanel {
+  max-width: 100%;
+  overflow: auto;
+}

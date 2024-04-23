@@ -1,0 +1,114 @@
+*** WooCommerce Role Based Methods ***
+
+Unreleased
+
+2023-07-17 - version 2.5.0
+ * HPOS compatibility (no significant code changed)
+
+2023-04-11 - version 2.4.4
+ * Update WC compatibility version
+
+2021-09-28 - version 2.4.3
+ * Fix logic when using groups. Previously there was a potential for false matches when using groups.
+
+2020-05-16 - version 2.4.2
+ * Bump tested WC version up to 4.1
+ * Adjust priority of package_rates filter to allow RBM to filter shipping methods before other plugins
+
+2019-06-02 - version 2.4.1
+ * Bump tested up to WC version
+
+2019-04-07 - version 2.4.0
+ * Update payment gateway comparison to match on all user roles rather than just the first
+
+2018-10-07 - version 2.3.10
+ * [Bugfix] Fix shipping method title display to better differentiate between shipping methods
+
+2018-06-14 - version 2.3.9
+ * [Bugfix] Fixed dash in changelog that was preventing updated date from pulling in correctly.
+
+2018-03-10 - version 2.3.8
+ * [Bugfix] Fixed typo
+
+2018-02-24 - version 2.3.7
+ * [Bugfix] fixes compatibility with WC 3.3
+
+2018-01-06 - version 2.3.6
+ * Fixes bug related to instance_id retrieval
+ * Better cache clearing when options are updated
+
+2017-11-11 - version 2.3.5
+ * Fixes version number typo
+
+2017-10-30 - version 2.3.4
+ * Patch for table_rates
+
+2017-10-23 - version 2.3.3
+ * Adds support for shipping instances (again)
+ * Implements new WC Version warning
+
+2017-08-29 - version 2.2.0
+ * Simplifies Zone implementation. We had to strip back our zone implementation until WC 2.3.0 is released. Until then it isn't possible to distinguish between different instances of a shipping method
+ * Fixes Group support
+
+2017-08-21 - version 2.1.6
+ * Fixes compatibility with subscriptions plugin
+ * Adds missing markup to group table display
+
+2017-07-30 - version 2.1.4
+ * Fixed bug where methods in the same zone weren't saving correctly
+
+2017-06-29 - version 2.1.2
+ * Adds support for Shipping Zones
+
+2016-12-13 - version 2.0.10
+ * Fix for numeric shipping method names.
+
+2016-08-12 - version 2.0.9
+ * Fix for empty shipping method title.
+
+2015-10-27 - version 2.0.8
+ * Adding in wc_clean for additional sensitization.
+
+2015-04-28 - version 2.0.7
+ * Settings update sanitization
+
+2015-04-28 - version 2.0.6
+ * Undefined variable error fixed.
+
+2015-03-22 - version 2.0.5
+ * Bug Fixes, improved Groups interface and functionality.
+
+2015-01-22 - version 2.0.4
+ * AND/OR selection for groups integration, improved admin interface.
+
+2014-09-23 - version 2.0.3
+ * WooCommerce Mollie Payment Gateway support.
+
+2014-09-09 - version 2.0.2
+ * Code Cleanup
+
+2014-09-08 - version 2.0.1
+ * Add woo-includes back
+ * Fix admin css path
+
+2014.9.4 - version 2.0.0
+ * Plugin rewrite, Groups integration, and WC 2.2 Compatibility.
+
+2014.3.10 - version 1.1.4
+ * Bugs fixed, as reported by Hugh Campbell
+
+2014.1.19 - version 1.1.3
+ * WC 2.1 Support
+
+2013.3.19 - version 1.1.2
+ * Fixing CSS Include issue
+
+2013.1.31 - version 1.1.1
+ * Code Cleanup, Docblocks, only including custom CSS on relavent admin pages.
+
+2012-12-04 - version 1.1
+ * Fixed bug appearing with space-containing roles, additional compatibility improvements
+
+2012-08-23 - version 1.0
+ * First release
