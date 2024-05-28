@@ -171,12 +171,11 @@ class WC_Role_Methods {
 	public function check_rolea_methods( $the_role, $rate_id ) {
 		$rate_id = apply_filters( 'wc_role_based_rate_id', $rate_id );
 
-		// The role isn't even defined in here, get out
-		if ( isset( $this->shipping_options[ $the_role ] ) ) {
-			$role_options = $this->shipping_options[ $the_role ];
-		} else {
-			return false;
+		if ( ! $this->shipping_options || ! isset( $this->shipping_options[ $the_role ] ) ) {
+			return true;
 		}
+
+		$role_options = $this->shipping_options[$the_role];
 
 		// Check if user is in one of the allowed groups, but only if groups plugin is installed.
 		$active_in_groups = false;
@@ -188,7 +187,7 @@ class WC_Role_Methods {
 			}
 		}
 
-		if ( ( isset( $role_options[ $rate_id ] ) && 'on' === $role_options[ $rate_id ] ) || ! $this->shipping_options ) {
+		if ( ( isset( $role_options[ $rate_id ] ) && 'on' === $role_options[ $rate_id ] ) ) {
 			$active_in_roles = true;
 		} else {
 			$active_in_roles = false;

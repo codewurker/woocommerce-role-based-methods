@@ -1,6 +1,7 @@
 *** WooCommerce Role Based Methods ***
 
-Unreleased
+2024-05-27 - version 2.5.1
+* Fix issue where no methods are available on initial install
 
 2023-07-17 - version 2.5.0
  * HPOS compatibility (no significant code changed)

@@ -2,8 +2,8 @@
 Contributors: brianjhanson
 Tags: woocommerce
 Requires at least: 4.0
-Tested up to: 7.5
-Stable tag: 2.5.0
+Tested up to: 8.9
+Stable tag: 2.5.1
 
 This plugin adds role-based control of shipping and payment methods for WooCommerce
 
